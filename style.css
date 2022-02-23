@@ -1,0 +1,207 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAF9F9;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+	width: 100%;
+    max-width: 100%; 
+	position: relative;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+header > div {
+    padding: 20px;
+}
+
+header > nav {
+	background: #555B6E;	
+	text-align: center;
+}	
+
+header nav ul { 
+	list-style:none;
+	padding:0;
+	display: inline-block;
+}
+
+header nav ul li{
+	float:left;
+    padding: 10px;
+    
+}
+
+header nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	padding:10px 20px;
+	text-align:center;
+}
+
+header nav ul li a:hover{
+	transition: all 0.3s;
+	color: #BDBDBD;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main section {
+    width: 100%;
+}
+
+main section .art1 {
+    padding: 20px;
+    background: #89B0AE;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+
+main section .art1 > h2, .art2 > h2 {
+    font-size: 25px;
+    text-align: center;
+    color: cornsilk;
+}
+main section .art1 > p, .art2 > p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+main section .art1 > div, .art2 > div {
+    background: #fff;
+    margin: 20px;
+}
+ 
+main section .art2 {
+    padding: 20px;
+    background: #89B0AE;
+    width: 50%;
+    float: left;
+}
+
+main .art2 div img {
+    width: 463px;
+    height: 163px;
+}
+
+main section .art3 {
+    padding: 20px;
+    background: #BEE3DB;
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+}
+
+.art3 table {
+    margin: auto;
+    border: 1px solid ;
+    background: #fff;
+}
+
+.art3 table thead {
+    font-size: 20px;
+}
+
+.art3 table tbody {
+    font-size: 15px;
+    text-align: center;
+}
+
+.art3 table td, th {
+    padding: 20px;
+}
+
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.amarillo {
+    color: #E5B301;
+}
+
+.cian {
+    color: #00B0F6;
+}
+
+.magenta { 
+    color: #FF00FF;
+}
+
+main section .formulario {
+    padding: 20px;
+    background: #0E9594;
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+}
+
+.formulario div {
+    margin: auto;
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#nombre, #contrasenia {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+#enviar {
+    padding: 5px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.video {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    float: left;
+    background: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
